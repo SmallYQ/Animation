@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:startOffset ="1000"
+    android:fillAfter = "false"
+    android:repeatMode= "reverse"
+    android:repeatCount = "infinite"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+
+    android:fromAlpha="0"
+    android:toAlpha="1">
+
+    <!--fromAlpha:动画开始时视图的初始透明度
+    toAlpha:动画结束时视图的结束透明度-->
+</alpha>

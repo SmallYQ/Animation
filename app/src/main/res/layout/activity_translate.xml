@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.linkbasic.animatortest.animation.TranslateActivity">
+
+    <Button
+        android:id="@+id/bt_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="translate1" />
+
+    <Button
+        android:id="@+id/bt_translate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_translate"
+        android:text="translate2" />
+</RelativeLayout>

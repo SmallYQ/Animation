@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_value_animator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.linkbasic.animatortest.animator.ValueAnimatorActivity">
+
+    <Button
+        android:id="@+id/bt_value2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="valueAnimator2" />
+
+    <Button
+        android:id="@+id/bt_value1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_value2"
+        android:text="valueAnimator" />
+
+    <Button
+        android:id="@+id/bt_value3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_value1"
+        android:text="valueAnimator3" />
+</RelativeLayout>

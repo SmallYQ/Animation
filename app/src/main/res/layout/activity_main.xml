@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.linkbasic.animatortest.MainActivity">
+
+    <Button
+        android:id="@+id/bt_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="帧动画" />
+
+    <Button
+        android:id="@+id/bt_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_frame"
+        android:text="补间动画" />
+
+    <Button
+        android:id="@+id/bt_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_animation"
+        android:text="属性动画" />
+</RelativeLayout>
